@@ -1,0 +1,160 @@
+body {
+	background-color: #fff;
+	overflow: hidden;
+}
+
+#loading {
+	background-color: black;
+	z-index: 1000;
+	margin-left:-8px;
+	padding-left: -10px;
+	width: 100%;
+	height: 100%;
+	opacity: 0.7;
+	display: none;
+	position: absolute;
+}
+
+#store {
+	display: none;
+}
+
+#loading img {
+	position: absolute;
+	left: 47%;
+	top: 40%;
+}
+
+#panel {
+	position: static;
+	width: 110%;
+	height: 60px;
+	margin-top: -18px;
+	margin-left: -8px;
+	background: linear-gradient(to top, #ffffff, #D5D5D5);
+	border-bottom: solid #D5D5D5 1px;
+}
+
+#load, #settings, #title {
+	position: absolute;
+}
+
+#load{
+	right: 40px;
+	top: 12px;
+}
+
+
+#title{
+	font-size: 18px;
+	font-weight: 300;
+	color: #ff9a4a;
+	font-family: Calibri;
+	left: 60px;
+	top: 8px;
+	width: 400px;
+}
+
+#title h3 {color: #0e8a23; display: inline } #title h2 { color: #ff752f; display: inline} #title p {color: #1012ff; display: inline}
+
+#settings {
+	margin: auto 0;
+	padding-left: 15px;
+	padding-top: 23px;
+}
+
+#settings:hover #dropList {
+	display: inline-block;
+}
+
+#dropList{
+	display: none;
+	position: absolute;
+	color:#D5D5D5 ;
+	z-index: 1000;
+}
+
+#dropList ul{
+	list-style: none;
+	margin-top: 0px;
+	margin-left: -35px;
+	width: 170px;
+}
+
+#dropList li {
+	padding: 5px;
+	background-color: #7f7f7f;
+	border: solid 1px #c9c9c9;
+	padding-left: 2px;
+	margin: 1px;
+}
+
+#dropList li:hover{
+	background-color: #fff;
+	color: #ff9a4a;
+}
+
+#settings button {
+	padding-top: 0px;
+	margin-top: -2px;
+}
+
+#balance-result {
+	position: absolute;
+	font-size: 18px;
+	font-weight: 300;
+	color: #0e8a23;
+	right: 80px;
+	top: 16px;
+	text-shadow: #6E6A68 1px 1px 1px;
+}
+
+
+#form {
+	position: relative;
+	width: 100%;
+}
+
+#logs {
+	border-left: solid 1px #D5D5D5;
+	left: 60%;
+	overflow: auto;
+}
+
+#forms {
+	margin-left: 10%;
+	margin-top: 3%;
+}
+
+#printResult, #console {
+	font-size: 12px;
+	font-family: cursive;
+	color: #646464;
+    margin-left: 10%;
+	margin-top: 3%;
+}
+
+#forms, #logs {
+	position: absolute;
+	height: 100%;
+	width: 50%;
+}
+
+#forms form .fields {
+	width: 300px;
+	height: 20px;
+	margin: 4px;
+	font-size: 18px;
+}
+
+#forms form span {
+	font-size: 18px;
+	color: #77756d;
+}
+
+
+#balance-result {
+	position: absolute;
+	text-align: left;
+	bottom: 30px;
+}

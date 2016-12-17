@@ -1,0 +1,74 @@
+{
+    "app_name": "app", 
+    "nodejs": true, 
+    "additional_trust_anchors": [
+        ""
+    ], 
+    "inject-js-end": "", 
+    "node-remote": "", 
+    "keywords": [], 
+    "author": "", 
+    "user-agent": "", 
+    "window": {
+        "fullscreen": false, 
+        "min_height": 500, 
+        "resizable": false, 
+        "title": "TopUpster", 
+        "always-on-top": false, 
+        "frame": true, 
+        "show": true, 
+        "kiosk": false, 
+        "kiosk_emulation": false, 
+        "exe_icon": "images/topUpsterLogo.png", 
+        "visible": true, 
+        "as_desktop": false, 
+        "toolbar": false, 
+        "mac_icon": "images/topUpsterLogo.png", 
+        "min_width": 700, 
+        "position": "center", 
+        "show_in_taskbar": true, 
+        "height": 500, 
+        "width": 850,
+        "transparent": false, 
+        "icon": "images/topUpsterLogo.png"
+    }, 
+    "version": "0.1.0", 
+    "inject-js-start": "", 
+    "main": "views/index.html", 
+    "chromium-args": "", 
+    "webexe_settings": {
+        "linux-x32": false, 
+        "export_dir": "/Users/den/Documents/Qiwi_APP/desktop/output", 
+        "windows-x64": true, 
+        "download_dir": "/Users/den/Documents/Qiwi_APP/desktop/output", 
+        "nw_compression_level": 0, 
+        "mac-x32": false, 
+        "windows-x32": false, 
+        "mac-x64": false, 
+        "nw_version": "0.12.3", 
+        "force_download": false, 
+        "linux-x64": false
+    }, 
+    "description": "Top up application", 
+    "dependencies": {
+        "grunt-nw-builder": "latest", 
+        "pretty-bytes": "^1.0.2", 
+        "grunt-contrib-watch": "^0.6.1", 
+        "grunt": "latest", 
+        "markdown": "^0.5.0"
+    }, 
+    "scripts": {
+        "start": "nw"
+    }, 
+    "webkit": {
+        "page-cache": false, 
+        "java": true, 
+        "plugin": false
+    }, 
+    "js-flags": "", 
+    "name": "node-webkit-notepad", 
+    "license": "ISC", 
+    "single-instance": true, 
+    "snapshot": "", 
+    "node-main": ""
+}
